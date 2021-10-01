@@ -36,7 +36,7 @@
 		//--Значение data атрибута тега img-------
 		const interval = document.querySelector("img").dataset.interval * 1000;
 		//--Стартовый путь-------
-		let firstValue = document.querySelector("img").getAttribute('src');
+		let firstValue = document.querySelector("img").src;
 		//--Функция перезагружающая скрипт если картинки кончились-------
 		function reload() {
 			document.querySelector("img").src = firstValue;
