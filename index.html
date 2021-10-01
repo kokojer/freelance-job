@@ -44,7 +44,7 @@
 		//--Функция смены картинок-------
 		setInterval(() => {
 			//--Стартовый путь-------
-			const imgSrc = document.querySelector("img").getAttribute('src');
+			const imgSrc = document.querySelector("img").src;
 			//--Название файла + расширение-------
 			let imgFullName = imgSrc.match(/(?<=(\/|^))[^\/]+$/gi);
 			//--Путь до файла без названия самого файла-------
